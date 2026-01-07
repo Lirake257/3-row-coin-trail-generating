@@ -17,10 +17,7 @@ while Run:
     else:
         IsRowChange=random.randint(0,3)
         if IsRowChange==0 and currowcount>=1:
-            if currow==0:
-                currow=1
-            else:
-                currow=1
+            currow=1
             currowcount=0
         else:
             currowcount+=1
